@@ -1,0 +1,22 @@
+
+
+/* tablet and mobile */
+@media (max-width: 63.9375em) {
+    input {
+        width: 443px;
+        height: 72px;
+        font-size: 28px;
+    }
+    button {
+        width: 450px;
+        height: 64px;
+        font-size: 24px;
+    }
+    #cat-img {
+        width: 75%;
+    }
+    #modal-frame {
+        width: 75%;
+    }
+
+}

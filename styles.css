@@ -1,6 +1,4 @@
 
-
-
 body {
     position: relative;
 }
@@ -25,6 +23,7 @@ button {
     width: 300px;
     height: 48px;
     font-weight: 700;
+    font-size: 16px;
     background-color: #000;
     color: #fff;
     border: none;
@@ -45,7 +44,7 @@ button:hover {
     right: 0;
     display: none;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -53,20 +52,18 @@ button:hover {
 #modal-container.open {
     display: flex;
 }
-#modal-frame {
-    width: 50%;
+#cat-img {
+    width: 30%;
     border-radius: 10px;
-    height: 80%;
+}
+#modal-frame {
+    width: 30%;
     text-align: center;
+    border-radius: 10px;
     line-height: 100px;
     font-size: 56px;
     font-weight: 700;
     background-color: #fff;
-    background-image: url('cat_selfie.jpg');
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: bottom 5% center;
-
 }
 #ok_btn {
     margin-top: 20px;
